@@ -6,7 +6,7 @@
     "author": "Menno Buggenhout <menno.buggenhout@gmail.com>",
     "dependencies": {
         "@fontsource/fjalla-one": "^4.3.0",
-        "gatsby": "^3.4.1",
+        "gatsby": "^3.4.2",
         "gatsby-image": "^3.4.0",
         "gatsby-plugin-gatsby-cloud": "^2.4.1",
         "gatsby-plugin-image": "^1.4.0",
@@ -19,9 +19,8 @@
         "gatsby-source-filesystem": "^3.4.0",
         "gatsby-transformer-sharp": "^3.4.0",
         "prop-types": "^15.7.2",
-        "react": "^17.0.1",
-        "react-dom": "^17.0.1",
-        "react-google-font-loader": "^1.1.0",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
         "react-helmet": "^6.1.0",
         "styled-components": "^5.3.0"
     },
