@@ -8,7 +8,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import GoogleFontLoader from 'react-google-font-loader'
+//import GoogleFontLoader from 'react-google-font-loader'
 import Socials from "../components/socials"
 import Language from "../components/language"
 
@@ -30,23 +30,8 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
+     
       <div style={{ fontFamily: 'Fjalla One' }}>
-        <GoogleFontLoader
-        fonts={[
-          {
-            font: 'Nunito',
-            weights: [400, 700],
-          },
-          {
-            font: 'Livvic',
-            weights: [400, 700],
-          },
-          {
-            font: 'Fjalla One',
-            weights: [200, 400, 600, 800, 1000],
-          },
-        ]}
-          />
         <Main>
           <Socials></Socials>
           <Language></Language>
@@ -67,3 +52,22 @@ const Main = styled.main`
 {
   color: var(--textColor);
 }`
+
+/*
+ <GoogleFontLoader
+        fonts={[
+          {
+            font: 'Nunito',
+            weights: [400, 700],
+          },
+          {
+            font: 'Livvic',
+            weights: [400, 700],
+          },
+          {
+            font: 'Fjalla One',
+            weights: [200, 400, 600, 800, 1000],
+          },
+        ]}
+          />
+          */
